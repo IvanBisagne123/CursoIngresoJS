@@ -10,7 +10,7 @@ estado_civil= document.getElementById("estadoCivil").value;
 
 if(edad >18 && estado_civil== "Soltero")
 {
-    alert("sos soltero y sos mayor que triste");
+    alert("sos soltero y sos mayor, que triste");
 }
 
 

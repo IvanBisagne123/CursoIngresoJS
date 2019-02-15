@@ -7,12 +7,11 @@ function mostrar()
 	{
 		alert("exelente");
 	}
-	if(RANDOM >=4 && RANDOM <=8)
+	else
 	{
+		if(RANDOM >=4 && RANDOM <=8)
 		alert("aprobado");
-	}
-	if(RANDOM <4)
-	{
+		else
 		alert("suerte para la proxima");
 	}
 

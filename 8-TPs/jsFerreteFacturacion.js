@@ -27,8 +27,7 @@ function Promedio ()
     precio2= parseInt(document.getElementById("PrecioDos").value);
     precio3= parseInt(document.getElementById("PrecioTres").value);
 
-    sumar= precio+precio2+precio3
-    Promedio= sumar/3;
+    Promedio= (precio+precio2+precio3)/3;
 
     alert(Promedio);
 
@@ -36,7 +35,7 @@ function Promedio ()
 function PrecioFinal () 
 {
     sumar= precio+precio2+precio3;
-    precio_final=sumar+(20*100/sumar);
+    precio_final=sumar+(21/100*sumar);
 
     alert(precio_final);
 }

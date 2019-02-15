@@ -1,6 +1,10 @@
 function mostrar()
 {
-    var precio, descuento, porsentaje_descuento, precio_final,
+    var precio;
+    var descuento;
+    var porsentaje_descuento;
+    var precio_final;
+    
     precio= prompt ("Ingrese el precio");
     precio= parseInt (precio);
     
