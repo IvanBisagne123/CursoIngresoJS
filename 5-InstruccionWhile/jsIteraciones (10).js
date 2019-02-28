@@ -1,16 +1,51 @@
+//declarar contadores y variables 
 function mostrar()
 {
-
-	var contador=0;
-	//declarar contadores y variables 
+	var contador;
+	var sumaDeNegativos;
+	var sumaDePositivos;
+	var numero;
+	var cantDePositivos;
+	var cantDeNegativos;
+	var cantDePares;
 	
-	var respuesta="si";
+	
+	contador=0;
+	sumaDeNegativos=0;
+	sumaDePositivos=0;
 
-	while(respuesta!="no")
+	respuesta='si';
+	
+	while(respuesta!='no')
 	{
+		numero=prompt("ingrese numero");
+		numero=parseInt(numero);
 		
-	
+		if(numero==0)
+		{
+			numero++;
+		}else{
+
+			(numero<0)
+			
+				sumaDeNegativos=sumaDeNegativos+numero;
+				cantDeNegativos++;
+			}if(numero>0)
+			{
+				sumaDePositivos=sumaDePositivos+numero;
+				cantDePositivos++;
+			}
+		}
+		if(numero%2==0)
+		{
+			cantDePares=cantDePares+numero;
+			cantDePares++
+		}		
+		respuesta=prompt("ingrese no para salir");
 	}
+	
+	console.log("la suma de los negativos es "+sumaDeNegativos);
+	console.log("la suma de los positivos es "+ sumaDePositivos);
 
 
 
